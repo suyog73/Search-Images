@@ -12,7 +12,8 @@ const App = () => {
     });
 
     setImages(response.data.results);
-    console.log(response.data.results);
+    // console.log(response.data.results);
+    console.log(process.env.REACT_APP_API_CLIENT_ID);
   };
 
   return (
